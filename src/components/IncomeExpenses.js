@@ -5,11 +5,11 @@ export const IncomeExpenses = () => {
     <div className="incomeExpenses">
       <div>
         <h4>Income</h4>
-        <p id="moneyPlusId" className="moneyClass plusClass">+$0.00</p>
+        <p className="moneyClass plusClass">+$0.00</p>
       </div>
       <div>
         <h4>Expense</h4>
-        <p id="moneyMinusId" className="moneyClass minusClass">-$0.00</p>
+        <p className="moneyClass minusClass">-$0.00</p>
       </div>
     </div>
   )
